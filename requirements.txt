@@ -1,0 +1,6 @@
+# IOC Rule Generator — Python dependencies
+# Install with: pip install -r requirements.txt
+
+pandas>=2.0.0
+openpyxl>=3.1.0        # Excel .xlsx read support
+xlrd>=2.0.1            # Excel .xls (legacy) read support

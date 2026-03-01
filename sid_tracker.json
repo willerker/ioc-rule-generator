@@ -1,0 +1,89 @@
+{
+  "next_sid": 9000011,
+  "used_sids": [
+    9000001,
+    9000002,
+    9000003,
+    9000004,
+    9000005,
+    9000006,
+    9000007,
+    9000008,
+    9000009,
+    9000010
+  ],
+  "et_sids": [],
+  "generated": [
+    {
+      "ioc": "185.220.101.5",
+      "ioc_type": "ipv4",
+      "sid": 9000001,
+      "rule_type": "suricata",
+      "timestamp": "2026-03-01T22:14:18.644135+00:00"
+    },
+    {
+      "ioc": "185.220.101.5",
+      "ioc_type": "ipv4",
+      "sid": 9000002,
+      "rule_type": "suricata",
+      "timestamp": "2026-03-01T22:14:18.644148+00:00"
+    },
+    {
+      "ioc": "evil-c2.example.com",
+      "ioc_type": "domain",
+      "sid": 9000003,
+      "rule_type": "suricata",
+      "timestamp": "2026-03-01T22:14:18.644167+00:00"
+    },
+    {
+      "ioc": "evil-c2.example.com",
+      "ioc_type": "domain",
+      "sid": 9000004,
+      "rule_type": "suricata",
+      "timestamp": "2026-03-01T22:14:18.644173+00:00"
+    },
+    {
+      "ioc": "evil-c2.example.com",
+      "ioc_type": "domain",
+      "sid": 9000005,
+      "rule_type": "suricata",
+      "timestamp": "2026-03-01T22:14:18.644178+00:00"
+    },
+    {
+      "ioc": "https://evil-c2.example.com/gate.php",
+      "ioc_type": "url",
+      "sid": 9000006,
+      "rule_type": "suricata",
+      "timestamp": "2026-03-01T22:14:18.644200+00:00"
+    },
+    {
+      "ioc": "d41d8cd98f00b204e9800998ecf8427e",
+      "ioc_type": "md5",
+      "sid": 9000007,
+      "rule_type": "suricata-placeholder",
+      "timestamp": "2026-03-01T22:14:18.644208+00:00"
+    },
+    {
+      "ioc": "aabbccddaabbccddaabbccddaabbccddaabbccdd",
+      "ioc_type": "sha256",
+      "sid": 9000008,
+      "rule_type": "suricata-placeholder",
+      "timestamp": "2026-03-01T22:14:18.644216+00:00"
+    },
+    {
+      "ioc": "attacker@phish.example.com",
+      "ioc_type": "email",
+      "sid": 9000009,
+      "rule_type": "suricata",
+      "timestamp": "2026-03-01T22:14:18.644227+00:00"
+    },
+    {
+      "ioc": "HKLM\\Software\\Evil\\Persistence",
+      "ioc_type": "registry",
+      "sid": 9000010,
+      "rule_type": "suricata",
+      "timestamp": "2026-03-01T22:14:18.644238+00:00"
+    }
+  ],
+  "last_updated": "2026-03-01T22:14:18.644525+00:00"
+}
