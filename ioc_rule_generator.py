@@ -19,7 +19,7 @@ Usage:
   python ioc_rule_generator.py -i iocs.csv  --update-et-sids
   python ioc_rule_generator.py -i iocs.xlsx --sid-start 9500000
 
-Author:  https://github.com/YOUR_USERNAME/ioc-rule-generator
+Author:  https://github.com/willerker/ioc-rule-generator
 License: MIT
 Version: 1.0.0
 """
