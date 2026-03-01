@@ -125,23 +125,6 @@ The script recognises standard Mandiant column names (`Indicator`, `Indicator Ty
 
 ---
 
-## GitHub / GitLab deployment
-
-```bash
-git init
-git add ioc_rule_generator.py requirements.txt README.md .gitignore
-git add sid_tracker.json   # commit the SID state so CI/CD picks it up
-git commit -m "Initial commit: IOC rule generator"
-
-# GitHub
-git remote add origin https://github.com/YOUR_USERNAME/ioc-rule-generator.git
-git push -u origin main
-
-# GitLab
-git remote add origin https://gitlab.com/YOUR_USERNAME/ioc-rule-generator.git
-git push -u origin main
-```
-
 ### Suggested CI usage (GitHub Actions example)
 
 ```yaml
